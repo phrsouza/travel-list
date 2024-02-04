@@ -26,6 +26,11 @@ function Form() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    if (!description) return;
+
+    const newItem = { description, quantity, package: false };
+
+    setDescription("");
   }
 
   return (
@@ -64,7 +69,10 @@ function PackingList() {
 function Item({ item }) {
   return (
     <li className="item">
-      <span style={item.packed ? { textDecoration: "line-through" } : {}}>
+      <span
+        style={item.packed ? { textDecoration: "line-through" } : {}}
+        key={item.id}
+      >
         {item.quantity} {item.description}
       </span>
       <button>❌</button>
