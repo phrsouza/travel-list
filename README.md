@@ -46,6 +46,8 @@ localhost:3000
 
 This project is deployed to https://travel-list-7zll3j2bk-pedro-souzas-projects-608e0ba6.vercel.app/ whenever the default branch is updated.
 
+![image](https://github.com/phrsouza/travel-list/assets/2446492/dfe0cef3-b82f-4033-a5e4-0a84a5ec840e)
+
 ## License
 
 This project is licensed under [MIT License](https://opensource.org/licenses/MIT).
